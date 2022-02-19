@@ -33,10 +33,12 @@
     - ###### **git add . && git commit -m "new file_2"**
 	- ###### **git push**
 
-9. ###### *На внешнем репозитории сделать Pull Request ветки CheckLists в main*
+9. ###### *На внешнем репозитории сделать Pull Request ветки CheckLists в main:*
+    - ###### **Нажать Compare & pull request**
+    - ###### **Create pull request**
+    - ###### **Merge pull request**
+    - ###### **Confirm merge**
 
 10. ###### *Синхронизировать Внешнюю и Локальную ветки Main:*
     - ###### **git checkout main**
     - ###### **git pull**
-
-
