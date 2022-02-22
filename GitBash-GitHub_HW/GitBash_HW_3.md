@@ -9,7 +9,7 @@
 
 2. ###### *Запушить все ветки на внешний репозиторий* \- **git push -u origin Postman Jmeter CheckLists BugReports SQL Charles Mobile_testing**
 
-3. ###### *В ветке Bag Reports сделать текстовый документ со структурой баг репорта:*
+3. ###### *В ветке Bug Reports сделать текстовый документ со структурой баг репорта:*
     - ###### **git checkout BugReports**
     - ###### **touch file_1.txt**
     - ###### **vim file_1.txt**
