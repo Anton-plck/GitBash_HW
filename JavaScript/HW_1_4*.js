@@ -1,8 +1,8 @@
 // 4***: Преобразовать задание 3* таким образом, чтобы возраст вводится используя функцию prompt в привязанной верстке
 
-let age_2 = 18
-let age_3 = 60
-checkAge(prompt("Enter your age"))
+let age_2 = 18;
+let age_3 = 60;
+checkAge(prompt("Enter your age"));
 
 function checkAge (age) {
     if (isNaN(age)) {
@@ -25,6 +25,6 @@ function checkAge (age) {
         else {
             alert ("Technical work")
             console.log ("Technical work")
-        }
-    }
-}    
+        };
+    };
+};
