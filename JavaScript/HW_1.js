@@ -77,14 +77,11 @@ console.log ("==================================================");
 function checkAge (age) {
     if (age < age_2) {
         console.log ("You don't have access cause your age is " + age + ".", "It's less then", age_2)
-    }
-    else if (age >= age_2 && age < age_3){
+    } else if (age >= age_2 && age < age_3){
         console.log ("Welcome!")
-        }
-    else if (age > age_3){
+    } else if (age > age_3){
         console.log ("Keep calm and look Culture channel")
-        }    
-    else {
+    } else {
         console.log ("Technical work")
     };
 };
@@ -100,22 +97,19 @@ console.log("===========================================================");
 function checkAge_1 (age) {
     if (typeof (age) != "number") {
         console.log ("Error. Age is not number!")
-    }
-    else {
+    } else {
         if (age < age_2) {
             console.log("You don't have access cause your age is " + age + ".", "It's less then", age_2)
-        }
-        else if (age >= age_2 && age < age_3){
+        } else if (age >= age_2 && age < age_3){
             console.log("Welcome")
-            }
-        else if (age > age_3){
+        } else if (age > age_3){
             console.log ("Keep calm and look Culture channel")
-            }    
-        else {
-            console.log ("Technical work")
+        } else {
+            console.log ("Technical work")  
         };
     };
 };
+    
 
 checkAge_1 ("2");
 
@@ -127,19 +121,15 @@ console.log ("=======================================================");
 function checkAge_2 (age) {
     if (isNaN(age)) {
         console.log ("Error. Age is not number")
-    }
-    else {
+    } else {
         if (age < age_2) {
             console.log("You don't have access cause your age is " + age + ".", "It's less then", age_2)
-        }
-        else if (age >= age_2 && age < age_3){
+        } else if (age >= age_2 && age < age_3){
             console.log("Welcome")
-            }
-        else if (age > age_3){
+        } else if (age > age_3){
             console.log ("Keep calm and look Culture channel")
-            }    
-        else {
-            console.log ("Technical work")
+        } else {
+            console.log ("Technical work")  
         };
     };
 };
