@@ -4,10 +4,10 @@
 ###### **IP: 162.55.220.72**
 ###### **Port: 5005**
 
-##### ***Ex_1: ***
+##### ***Ex_1:***
 ##### ***Method: GET***
 ##### ***EndPoint: /get_method***
-##### ***request url params ***
+##### ***request url params:***
 ##### ***name: str***
 ##### ***age: int***
 
