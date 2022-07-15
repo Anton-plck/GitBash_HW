@@ -7,7 +7,7 @@
 ##### ***Ex_1: ***
 ##### ***Method: GET***
 ##### ***EndPoint: /get_method***
-##### ***request url params: ***
+##### ***request url params ***
 ##### ***name: str***
 ##### ***age: int***
 
