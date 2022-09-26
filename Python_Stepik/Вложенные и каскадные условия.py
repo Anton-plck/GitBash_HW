@@ -133,4 +133,35 @@ elif p>=29 and p<=36 and p%2==0:
 else:
     print("ошибка ввода")
 
-#8.
+#8. На числовой прямой даны два отрезка: [a1;b1] и [a2;b2]. Напишите программу, которая находит их пересечение.
+#Пересечением двух отрезков может быть: отрезок, точка, пустое множество.
+#На вход программе подаются 4 целых числа a1, b1, a2, b2. Гарантируется, что a1 < b1 и a2 < b2.
+
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+if a2<b1 and a1<b2 and a1<a2 and b2<b1:
+    print(a2,b2)
+elif a1<a2 and a1<b2 and a2<b1 and b1<b2:
+    print(a2,b1)
+elif a2<a1 and a2<b1 and a1<b2 and b2<b1:
+    print(a1,b2)
+elif a2<a1 and a2<b1 and a1<b2 and b1<b2:
+    print(a1,b1)
+elif a1<a2 and a1<b2 and b1==a2 and b1<b2:
+    print(b1)
+elif a2<a1 and a2<b1 and b2<b1 and a1==b2:
+    print(a1)
+elif a1==a2 and b1==b2 and a2<b1 and a1<b2:
+    print(a1,b1)
+elif a1==a2 and a2<b1 and b1<b2 and a1<b2:
+    print(a1,b1)
+elif a2<a1 and a2<b1 and b1==b2 and a1<b2:
+    print(a1,b1)
+elif a1<a2 and a1<b2 and a2<b1 and b1==b2:
+    print(a2,b1)
+elif a1==a2 and b2<b1 and a2<b1 and a1<b2:
+    print(a1,b2)
+else:
+    print("пустое множество")
